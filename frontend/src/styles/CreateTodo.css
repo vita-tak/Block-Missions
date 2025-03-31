@@ -1,0 +1,17 @@
+.todo-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-input:focus {
+  border-color: #9097c0;
+  box-shadow: 0 0 8px rgba(106, 153, 78, 0.5);
+}

@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  background-image: url('../src/assets/img/notebook3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+h1 {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: black;
+}
+
+button {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  margin: 0.3rem 0;
+  color: black;
+  background: #9097c0;
+  border: solid 1px var(--secondary-color);
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  outline: none !important;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+  border-radius: 3rem;
+}
+
+button:hover {
+  background: rgba(182, 186, 213, 1);
+  border: solid 1px var(--primary-color);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
