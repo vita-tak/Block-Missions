@@ -1,5 +1,5 @@
 # Block Missions
-On-chain todo list for your daily missions! Why not?
+On-chain todo list-dApp for your daily missions! Why not?
 
 This project is a frontend application that interacts with an Ethereum blockchain. The application is built with React and uses ethers.js to communicate with the blockchain. It has been tested against a local Ethereum node running with Hardhat.
  
