@@ -1,9 +1,9 @@
 # Block Missions
 On-chain todo list for your daily missions! Why not?
- 
-<img width="1280" alt="blockmissions" src="https://github.com/user-attachments/assets/9f08bd36-0436-437f-aba0-b2d695b6e959" />
 
 This project is a frontend application that interacts with an Ethereum blockchain. The application is built with React and uses ethers.js to communicate with the blockchain. It has been tested against a local Ethereum node running with Hardhat.
+ 
+<img width="1280" alt="blockmissions" src="https://github.com/user-attachments/assets/9f08bd36-0436-437f-aba0-b2d695b6e959" />
 
 ## Features
 
