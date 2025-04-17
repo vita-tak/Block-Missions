@@ -22,8 +22,8 @@ This project is a frontend application that interacts with an Ethereum blockchai
 
 ## Tech Stack
 
-- Frontend: React.js
-- Blockchain: Ethereum
+- Frontend: React.js, Vite
+- Blockchain: Ethereum (Hardhat)
 - Smart Contract: Solidity
 - Web3 Integration: Ethers.js
 - Development: Hardhat
